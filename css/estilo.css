@@ -1,0 +1,407 @@
+@media only screen and (min-width: 700px){
+
+
+ /* CSS general */
+ * {
+   margin: 0;
+   padding: 0;
+ }
+
+body {
+      font-size: 72.5%;  /* este genera que un rem sea = 10px*/   
+}
+
+h1{font-size: 3rem;}
+
+ a {
+   text-decoration:none ;
+   } /* sacar subrayado a los links*/
+
+/*Grid en index y nosotros */
+  .textoPresentacion  {
+    color: white;
+    width: auto;
+    padding: 10px 10px 20px 30px ;
+    font-size: 1.3rem;/*modificar tamaño fuente */
+    font-style: italic;/*modificar estilo italico */
+    font-weight: bold;
+    text-align: justify-all; /*alinear texto:  justify, cneter,  right y left */;
+    border:2px solid black;"
+    font-weight: 40;
+    display: grid;
+    grid-template-columns:  200px 200px;
+    grid-template-columns:   1fr 1fr;
+    grid-gap: 30px;
+
+  }
+
+/* CSS contactos con grid */
+.borde {
+  
+  text-align: center;
+  border:2px solid black  ;"
+  font-weight: 40;
+    display: grid;
+    grid-template-columns: 200px 400px ;
+    grid-template-columns:  2fr 2fr ;
+    grid-gap: 5px;
+    
+  }
+
+
+   .footerFlex{
+      display: flex; /* propiedad que genera contedor fexlibke*/
+      flex-direction: row; /* acomoda sobre el eje de las x o y */       
+      
+   }
+
+
+  
+
+   .gridPR{
+    display: grid; /* propiedad que habilita aplicar grid*/
+    grid-template-columns: 400px 400px 400px ; /* prop q establece ancho:  px, fr, % */
+    grid-template-rows: 300px 300px 300px ; /* prop que establece alto*/
+    grid-column-gap: 100px; /* prop que genera el espacrio entre columnas*/
+    grid-row-gap: 200px; /* prop que genera el espacrio entre filas*/
+     
+      text-align: justify-all;
+      font-size: 0.7rem;
+   }
+
+
+
+.footerFlex li {
+  text-align: center;
+      list-style-type: none;
+      text-transform: uppercase;
+      margin: 10px 5px;
+      padding-left: 6rem;
+    }
+
+    .bordeCirculo{
+      border-radius: 90%;
+
+    }
+
+
+  .nav {transition: all 2s
+
+  }
+
+
+
+   .navFlex li{
+      padding: 10px;
+      list-style-type: none;
+      text-transform: uppercase;
+      background-color: rgb(255, 20, 147);
+      border-radius: 3px;
+      margin: 30px 20px;
+      transition: all 2s
+    }
+
+
+  .navFlex  {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap; /*permite al contedor padre adaptar asus elementos hijos o genereae un salto de linea */
+     justify-content: space-between;
+     font-size: 0.7rem;/*modificar tamaño fuente */ 
+    font-weight: bold; /*modificar grosor linea */
+    text-transform: uppercase;
+    transform: translate(50px, 10px)
+      }
+
+  .navFlex li:ahover{
+    width: 100px;
+    height: auto;
+  }
+
+
+  /*transform: translate(-15px, -2px);  propiedad para trasladar sin posicion sobre el eje de las x (primer valor) e y (segundo valor)*/
+
+/* .rotate {
+  transform: rotate(-15deg); rota los elementos en grados 
+  transform: rotateX(20deg); achica la imagen en x
+  transform: scale (2,2); (1<x agranda entre 1-0 achica negaticas invierten)
+} */
+
+
+
+.headerFlex{
+  display: flex;
+  text-align: center;
+    }
+
+.border{
+  border: 1px solid black;
+  border-style: solid;
+  border:black;
+  border-width: 1px solid black;
+  border-top: 2;
+
+}
+
+.iconoHover{
+  transition: all 2s;
+}
+
+.iconoHover:hover{
+  transform: translateY(-20px);
+}
+
+ 
+ .encabezado {
+      color: white;
+      text-align: center;
+      font-size: 5 rem;
+      font-family: 'Taviraj', serif;
+      font-weight: bold;
+      text-transform: capitalize;
+      list-style-type: none;
+ }  
+
+
+
+  .mensaje{
+    color: black;
+     font-size: 2rem;/*modificar tamaño fuente */
+    font-style: italic;/*modificar estilo italico */
+    font-weight: bold; /*modificar grosor linea */
+    font-family: 'Taviraj', serif; /*modificar familia tipografica*/
+    text-align: center ; /*alinear texto:  justify, cneter,  right y left */;
+    list-style-type:none ;
+
+  }
+
+ /* CSS productos */
+ .titulo h1{
+  position: relative; 
+  left: 80px;
+    border: 100px;
+
+ }
+
+ .gradiente {
+  background:linear-gradient(270deg, rgba(26,107,118,0) 0%, rgba(236,15,245,0.6913953081232493) 45%, rgba(126,18,134,1) 100%);
+}
+
+.productos {
+  font-size: 0.5rem;
+
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  display: inline-block;
+  /*overflow: hidden;  rectangulo lo que esta fuera del cuadrante se borra*/
+}
+
+
+
+  .nav li {display: inline;
+    width: 500px;
+    padding: 20px 20px 30px 40px ;
+    position: relative;
+    left: 200px;
+    border: 70px;
+  } 
+
+   
+
+ .lista {list-style-type:none ;} /* sirve para sacar los puntos de la lista */
+
+ /* CSS nosotros*/
+
+.nosotros {  
+  font-size: 1rem;/*modificar tamaño fuente */
+  color: black;
+  text-align: justify-all; /*alinear texto:  justify, cneter,  right y left */;
+  font-weight: bold;
+  list-style-type:none ;
+}
+
+/*BACKRAUND contactos*/
+
+.parallax{
+   background:  #7E1286;
+   height: 500px;
+
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   padding: 50px 30px;
+   margin-bottom: 50px;
+}
+
+
+.borde h3 {
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+  font-style: italic;/*modificar estilo italico */
+  font-weight: bold; /*modificar grosor linea */
+  font-family: 'Taviraj', serif; /*modificar familia tipografica*/
+  text-transform: uppercase ;
+  list-style-type:none ;
+} 
+
+.inicio {
+   display: flex;
+   flex-direction: row;
+     flex-wrap: wrap; /*permite al contedor padre adaptar asus elementos hijos o genereae un salto de linea */
+}
+
+.entrada{
+  display: grid;
+  grid-template-columns: 50px 50px;
+   transform: translate(100px, 30px);
+   grid-template-columns: 50px 80px ;
+  }
+
+.borde p {
+  color: black;
+  font-size: 1rem;
+  font-style: italic;/*modificar estilo italico */
+  font-weight: bold; /*modificar grosor linea */
+  font-family: 'Taviraj', serif; /*modificar familia tipografica*/
+  text-align: justify-all; /*alinear texto:  justify, cneter,  right y left */;
+  text-transform: capitalize ;
+  list-style-type:none ;
+
+  }
+
+  label {
+    list-style: none;
+  }
+
+.focu {
+  display: block;
+  width: 150px;
+  border:4px solid black;"
+  transition: all 1s;
+  transform: translate(250px, 20px);
+
+}
+
+.textoe{
+  border: 4px solid black;
+}
+
+.focu:focus {
+  width: 200px;
+  font-size: 24px;
+}
+
+
+
+
+}
+
+@media only screen and (max-width: 768px){
+
+ .encabezado {
+      color: white;
+      text-align: center;
+      font-size: 5 rem;
+      font-family: 'Taviraj', serif;
+      font-weight: bold;
+      text-transform: capitalize;
+      list-style-type: none;
+ }  
+
+ .gradiente {
+  background:linear-gradient(270deg, rgba(26,107,118,0) 0%, rgba(236,15,245,0.6913953081232493) 45%, rgba(126,18,134,1) 100%);
+}
+
+.footerFlex{
+  list-style-type: none;
+}
+
+.iconoHover{
+  transition: all 2s;
+}
+
+.iconoHover:hover{
+  transform: translateY(-20px);
+}
+
+.nosotros {  
+  font-size: 1.2rem;/*modificar tamaño fuente */
+  color: black;
+  text-align: center; /*alinear texto:  justify, cneter,  right y left */;
+  font-weight: bold;
+  list-style-type:none ;
+  text-align: center;
+}
+
+.nosoimagen{
+ display:block;
+
+margin-left: auto;
+
+margin-right: auto;
+}
+
+
+
+}
+
+.contenedor-preguntas{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 40px;
+
+}
+
+.contenedor-pregunta{
+  background: white;
+  padding: 40px;
+  border: 2px solid transparent;
+  border-radius: 10px ;
+  overflow: hidden;
+  transition: .3s ease all;
+  cursor: pointer;
+}
+
+.contenedor-pregunta:hover{
+  box-shadow: var(--sombra) ;
+}
+
+.contenedor-pregunta.activa{
+ border: 2px solid var(--primario) ;
+}
+
+.pregunta {
+  font-weight: 700 ;
+  font-size: 20px;
+  line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pregunta img{
+  width: 14px;
+}
+
+.respuesta{
+  color: #808080;
+  line-height: 30px;
+  max-height: 0;
+  opacity: 0;
+  transition: .3s ease all;
+}
+
+.contenedor-pregunta.activa .respuesta{
+  opacity: 1;
+  margin-top: 20px;
+}
+.contenedor-pregunta.activa img{
+  transform: rotate(45deg) ;
+}
+
+
+.fondo {background-color: #BA68C8 
+ ;}
