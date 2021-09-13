@@ -345,6 +345,62 @@ margin-left: auto;
 margin-right: auto;
 }
 
+.contenedor-preguntas{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 40px;
+
+}
+
+.contenedor-pregunta{
+  background: white;
+  padding: 40px;
+  border: 2px solid transparent;
+  border-radius: 10px ;
+  overflow: hidden;
+  transition: .3s ease all;
+  cursor: pointer;
+}
+
+.contenedor-pregunta:hover{
+  box-shadow: var(--sombra) ;
+}
+
+.contenedor-pregunta.activa{
+ border: 2px solid var(--primario) ;
+}
+
+.pregunta {
+  font-weight: 700 ;
+  font-size: 20px;
+  line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pregunta img{
+  width: 14px;
+}
+
+.respuesta{
+  color: #808080;
+  line-height: 30px;
+  max-height: 0;
+  opacity: 0;
+  transition: .3s ease all;
+}
+
+.contenedor-pregunta.activa .respuesta{
+  opacity: 1;
+  margin-top: 20px;
+}
+.contenedor-pregunta.activa img{
+  transform: rotate(45deg) ;
+}
+
+
+.fondo {background-color: #BA68C8 
+ ;}
 
 
 }
