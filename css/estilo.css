@@ -519,7 +519,7 @@ label{
 }
 
 
-.formulario button{
+.formu button{
   height: 45px; 
   padding-left: 5px;
   padding-right: 5px;   
@@ -535,7 +535,7 @@ label{
 }
 
 
-.formulario button p{
+.formu button p{
   color: #fff; 
 }
 
