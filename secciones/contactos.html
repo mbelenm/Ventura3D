@@ -86,29 +86,64 @@
 				 onmouseover="this.width=700;this.height=700;" onmouseout="this.width=550;this.height=550;" width="550" height="550" />
 			</iframe> </h3>
 
+			<div class="contact_form">
 
-			<form action=""> <br>
-				<input type="text" placeholder="Ingresa tu Mail:" class="focu" > <br> <br><!-- br salto de linea-->
-				<input type="text" placeholder="Ingresa tu celular" class="focu"> <br> <br>  
-				<textarea name="comentarios" rows="20" cols="60" placeholder="Escribe tu mensaje.."  class="textoe"  ></textarea> <br> <br> 
-				
-				</div>
-				
-				<div> <p>¿Quiere recibir informacion sobre nuevos productos?</p> 
+    <div class="formulario">      
+
+          <form action="submeter-formulario.php" method="post">       
+
+            
+                <p>
+                  <label for="nombre" class="colocar_nombre">Nombre
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+              
+                <p>
+                  <label for="email" class="colocar_email">Email
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+            
+                <p>
+                  <label for="telefone" class="colocar_telefono">Teléfono
+                  </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>    
+              
+                <p>
+                  <label for="mensaje" class="colocar_mensaje">Mensaje
+                    <span class="obligatorio">*</span>
+                  </label>                     
+                                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                </p>     
+
+                   <p class="aviso">
+                  <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>   
+                <div> <p>¿Quiere recibir informacion sobre nuevos productos?</p> 
 					<select name="Info" id="Info">
 						
 						<option value="SI"> Si</option>
 						<option value="NO"> No</option>
-					</select>
-				</div> <br> 
-				<div>
-					<p>Acepto termino y condiciones</p>
-					<input type="checkbox" name="Acepta" value="1">
-				</div> <br> 	 
-				
-				<input type="submit" value="BORRAR"> <input type="submit" value="ENVIAR">
+					</select>  <br> <br>                              
+              
+                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button> <br> <br>
+                <button type="submit" name="borrar_formulario" id="enviar"><p>Borrar</p></button>
 
-			</form> <br><br>
+            
+				</div> <br>  	 
+
+
+			</form> <br><br>       
+     
+    </div>  
+  </div>
+
+				
+				
 						
 
 			</section> <br> <br> 
