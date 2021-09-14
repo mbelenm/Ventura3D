@@ -301,6 +301,12 @@ h1{font-size: 3rem;}
 }
 
 @media only screen and (max-width: 768px){
+   /* CSS general */
+ * {
+   margin: 0;
+   padding: 0;
+ }
+
 
  .encabezado {
       color: white;
@@ -317,7 +323,9 @@ h1{font-size: 3rem;}
 }
 
 .footerFlex{
-  list-style-type: none;
+  list-style: none;
+  padding-left: 300px;
+  flex-direction: column;
 }
 
 .iconoHover{
@@ -581,6 +589,9 @@ p{
  color: #a8a8a8;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
 
 .formulario input:focus{
   outline:0;

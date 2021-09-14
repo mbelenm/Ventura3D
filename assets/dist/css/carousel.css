@@ -115,4 +115,22 @@ body {
 
     }
 
+  .footerFlex{
+      display: flex; /* propiedad que genera contedor fexlibke*/
+      flex-direction: column; /* acomoda sobre el eje de las x o y */
+      list-style: none;
+      padding-left: 30px;
+        
+   }
+
+.footerFlex li {
+  text-align: center;
+      list-style-type: none;
+      text-transform: uppercase;
+      margin: 10px 5px;
+      padding-left: 6rem;
+    }  
+
 }
+
+
