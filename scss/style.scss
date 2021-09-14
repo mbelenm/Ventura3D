@@ -1,3 +1,27 @@
+/* variables*/
+$negro: black ;
+$blanco:white;
+$rosa:#a8a8a8;
+$font-size: 72.5%;
+$pDesktop: (min-width: 700px);
+
+
+.encabezado {
+      color: $blanco;
+  }
+
+::-webkit-input-placeholder {
+ color: $rosa;
+}  
+
+::-webkit-textarea-placeholder {
+ color: $rosa;
+}
+
+body {
+      font-size: $font-size;  /* este genera que un rem sea = 10px*/   
+}
+
 @media only screen and (min-width: 700px){
 
 
@@ -24,7 +48,7 @@ h1{font-size: 3rem;}
 .borde {
   
   text-align: center;
-  border:2px solid black  ;"
+  border:2px black;"
   font-weight: 40;
     display: grid;
     grid-template-columns: 200px 400px ;
