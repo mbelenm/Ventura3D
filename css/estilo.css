@@ -344,6 +344,27 @@ h1{font-size: 3rem;}
 
     }
 
+    @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+
+body{
+  height: 100%; 
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #ab4493; 
+}
+
+
+.contact_form{  
+  width: 400px; 
+  height: auto;
+  margin: 60px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 25px; 
+}
+
 
 .redes {
   padding-left: 400px
