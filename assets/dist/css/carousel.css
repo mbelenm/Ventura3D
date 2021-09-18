@@ -40,6 +40,10 @@ body {
       display: flex; /* propiedad que genera contedor fexlibke*/
       flex-direction: row; /* acomoda sobre el eje de las x o y */
       list-style: none;
+      justify-content:center;
+      margin-bottom: 0px;
+
+
         
    }
 
@@ -47,9 +51,14 @@ body {
   text-align: center;
       list-style-type: none;
       text-transform: uppercase;
-      margin: 10px 5px;
-      padding-left: 6rem;
+      margin:  10px;
+      margin-bottom: 0px;
+      padding-left: 1rem;
     }
+
+.redes {
+  padding-left: 400px
+}
 
 
 /* MARKETING CONTENT

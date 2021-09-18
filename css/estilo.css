@@ -36,7 +36,12 @@ h1{font-size: 3rem;}
 
    .footerFlex{
       display: flex; /* propiedad que genera contedor fexlibke*/
-      flex-direction: row; /* acomoda sobre el eje de las x o y */       
+      flex-direction: row; /* acomoda sobre el eje de las x o y */    
+      justify-content:center;
+      list-style: none;
+      margin-bottom: 0px;
+      border: none;
+   
       
    }
 
@@ -76,14 +81,37 @@ h1{font-size: 3rem;}
   text-align: center;
       list-style-type: none;
       text-transform: uppercase;
-      margin: 10px 5px;
-      padding: 6rem;
+      
+      margin: 50px 50px;
+      padding-left: 0rem;
     }
 
-    .bordeCirculo{
+    .bordeCirculo {
+      transition: 2s;
       border-radius: 90%;
+      border: 10px solid; color: darkviolet;" 
+    }
+
+    .bordeCirculo: hover{
+      transform:  rotate(360deg);
+     
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+      
 
     }
+
+    .nosoimagen{
+ display:block;
+  margin: 7 px;
+  width: 400px;
+  height: 300px;
+
+ 
+}
 
 
  
@@ -144,6 +172,7 @@ h1{font-size: 3rem;}
  }
 
  .gradiente {
+
   background:linear-gradient(270deg, rgba(26,107,118,0) 0%, rgba(236,15,245,0.6913953081232493) 45%, rgba(126,18,134,1) 100%);
 }
 
@@ -179,6 +208,7 @@ h1{font-size: 3rem;}
   text-align: justify-all; /*alinear texto:  justify, cneter,  right y left */;
   font-weight: bold;
   list-style-type:none ;
+  margin: 10px;
 }
 
 /*BACKRAUND contactos*/
@@ -286,8 +316,32 @@ h1{font-size: 3rem;}
   list-style: none;
   padding-left: 200px;
   flex-direction: column;
+  margin-bottom: 0px;
+      border: none;
 }
 
+  .bordeCirculo {
+      transition: 2s;
+      border-radius: 90%;
+      border: 5px solid; color: black;"
+      align:  left ;
+    }
+   .bordeCirculo: hover{
+      transform:  rotate(360deg);
+     
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+      
+
+    }
+
+
+.redes {
+  padding-left: 400px
+}
 .iconoHover{
   transition: all 2s;
 }
@@ -307,10 +361,10 @@ h1{font-size: 3rem;}
 
 .nosoimagen{
  display:block;
+  margin: 7 px;
+  width: 300px;
+  height: 200px;
 
-margin-left: auto;
-
-margin-right: auto;
 }
 
 .contenedor-preguntas{
