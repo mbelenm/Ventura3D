@@ -367,18 +367,43 @@ h1{font-size: 3rem;}
 
 .nosoimagen{
  display:block;
-  margin: 7 px;
-  width: 300px;
-  height: 200px;
+  
+  width: 400px;
+  height: 300px;
+   margin-left: auto;
+  margin-right: auto;
 
 }
 
-.imgDerecha{
-margin-left: auto; 
+.borde {
+  
+  text-align: center;
+  border:2px solid black  ;"
+  font-weight: 40;
 
-margin-right: auto;
+    
+  }
 
-}
+  .borde h3 {
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+  font-style: italic;/*modificar estilo italico */
+  font-weight: bold; /*modificar grosor linea */
+  font-family: 'Taviraj', serif; /*modificar familia tipografica*/
+  text-transform: uppercase ;
+  list-style-type:none ;
+} 
+ .mensaje{
+    color: black;
+     font-size: 2rem;/*modificar tamaño fuente */
+    font-style: italic;/*modificar estilo italico */
+    font-weight: bold; /*modificar grosor linea */
+    font-family: 'Taviraj', serif; /*modificar familia tipografica*/
+    text-align: center ; /*alinear texto:  justify, cneter,  right y left */;
+    list-style-type: center;
+
+  }
 
 .contenedor-preguntas{
   display: grid;
