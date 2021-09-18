@@ -104,7 +104,20 @@ h1{font-size: 3rem;}
 
     }
 
-  
+    .imgIzquierda {
+            float: left;
+      }
+   .imgDerecha {
+      float: right;
+   }   
+
+    .nosoimagen{
+ display:block;
+  margin: 7 px;
+  width: 400px;
+  height: 300px;
+ 
+}
 
 
  
@@ -201,7 +214,7 @@ h1{font-size: 3rem;}
   text-align: justify-all; /*alinear texto:  justify, cneter,  right y left */;
   font-weight: bold;
   list-style-type:none ;
-  margin: 10px;
+  margin: 50px;
 }
 
 /*BACKRAUND contactos*/
@@ -283,7 +296,7 @@ h1{font-size: 3rem;}
 
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 700px){
    /* CSS general */
  * {
    margin: 0;
@@ -357,6 +370,13 @@ h1{font-size: 3rem;}
   margin: 7 px;
   width: 300px;
   height: 200px;
+
+}
+
+.imgDerecha{
+margin-left: auto; 
+
+margin-right: auto;
 
 }
 
