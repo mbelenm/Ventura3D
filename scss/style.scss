@@ -58,12 +58,7 @@ h1{font-size: 3rem;}
   }
 
 
-   .footerFlex{
-      display: flex; /* propiedad que genera contedor fexlibke*/
-      flex-direction: row; /* acomoda sobre el eje de las x o y */       
-      
-   }
-
+   
 
   
 
@@ -80,13 +75,6 @@ h1{font-size: 3rem;}
 
 
 
-.footerFlex li {
-  text-align: center;
-      list-style-type: none;
-      text-transform: uppercase;
-      margin: 10px 5px;
-      padding: 6rem;
-    }
 
     .bordeCirculo{
       border-radius: 90%;
@@ -290,11 +278,6 @@ h1{font-size: 3rem;}
   background:linear-gradient(270deg, rgba(26,107,118,0) 0%, rgba(236,15,245,0.6913953081232493) 45%, rgba(126,18,134,1) 100%);
 }
 
-.footerFlex{
-  list-style: none;
-  padding-left: 200px;
-  flex-direction: column;
-}
 
 .iconoHover{
   transition: all 2s;

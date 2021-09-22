@@ -35,6 +35,32 @@ body {
   min-width: 100%;
   height: 32rem;
 }
+
+.copyright {
+  color: #C7C7C7;
+  margin: 1 px;
+  border: 0.5px;
+}
+
+.copyright a {
+  text-decoration: none;
+  color: white;
+  
+}
+.footer {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+
+  } 
   
    }
 
