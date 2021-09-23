@@ -204,16 +204,43 @@ border: 3px solid #FF00FF;
 
    .gridPR{
     display: grid; /* propiedad que habilita aplicar grid*/
-    grid-template-columns: 400px 400px 400px ; /* prop q establece ancho:  px, fr, % */
+    grid-template-columns: 350px 350px 350px ; /* prop q establece ancho:  px, fr, % */
     grid-template-rows: 300px 300px 300px ; /* prop que establece alto*/
     grid-column-gap: 100px; /* prop que genera el espacrio entre columnas*/
     grid-row-gap: 250px; /* prop que genera el espacrio entre filas*/
-     
       text-align: justify-all;
       font-size: 0.7rem;
+      justify-content: center;
+      padding-right: 100px;
+
+    
    }
 
+.producto_form{  
+  width: 400px ; 
+  height: auto;
+  margin: 30px ;
+  border-radius: 10px;  
+  padding-top: 20px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+  padding-right: 30px;
+}
 
+input{
+  background-color: #fbfbfb; 
+  width: 270px ; 
+  height: 40px; 
+  justify-content: center;
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
 
     .bordeCirculo {
       
@@ -454,7 +481,7 @@ footer {
  .producto_form{  
   width: 450px auto; 
   height: auto;
-  margin: 50px auto;
+  margin: 30px auto;
   border-radius: 10px;  
   padding-top: 20px;
   padding-bottom: 20px;  
@@ -566,6 +593,10 @@ textarea{
   padding-top: 15px; 
 }
 
+.gridPR{
+   padding-right: 100px;
+   padding-left: 50px;
+}
 
 label{
   display: block; 
@@ -685,8 +716,8 @@ p{
 .imagenPr{
   display:block;
   
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px ;
    margin-left: auto;
   margin-right: auto;
 
