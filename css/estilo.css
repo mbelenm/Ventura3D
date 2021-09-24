@@ -454,6 +454,24 @@ footer {
    padding: 0;
  }
 
+.Presentacion  {
+
+      font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+
+font-size: 10px; 
+font-weight: 400px; 
+text-align: center; 
+background: #BA55D3; 
+margin: 0 0 50px; 
+overflow: hidden; 
+padding: 20px; 
+border-radius: 33px 0px 33px 0px; 
+-moz-border-radius: 33px 0px 33px 0px; 
+-webkit-border-radius: 33px 0px 33px 0px; 
+border: 3px solid #FF00FF;
+    
+  
+  }
 
  .encabezado {
       color: white;
